@@ -1,0 +1,40 @@
+body{
+    background-color: red; 
+}
+.title{
+    text-align: center;
+}
+.level{
+    font-size:5vw;
+}
+@media only screen and (max-width:568px){
+    .level{
+        font-size:10vw;
+    }
+}
+.carre{
+    min-height: 500px;
+}
+.carre1{
+    display: block;
+    width: 98%;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding-right: 20px;
+}
+@media only screen and (max-width:767px){
+    .carre{
+        min-height: 250px;
+    }
+    .carre1{
+        display: block;
+        width: 98%;
+        min-height: 100px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
+        padding-right: 20px;
+    }
+}
